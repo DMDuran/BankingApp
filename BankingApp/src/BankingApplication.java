@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class BankingApplication {
 
 	/*
-	 * Create classes that will perform functions for the main method Deposit,
+	 * Create classes that will perform functions for the main method deposit,
 	 * withdraw, show previous transactions, display a welcome message, and a show
 	 * menu.
 	 */
@@ -34,7 +34,7 @@ public class BankingApplication {
 			customerId = cid;
 		}
 
-		// Creating first method that will perform deposit functions
+		// Creating method that will perform deposit functions
 		void deposit(int amount) {
 			if (amount != 0) // Condition will run if amount given is not 0
 			{
@@ -68,6 +68,8 @@ public class BankingApplication {
 			}
 		}
 
+		// Show menu will display options for the user and allow him/her to navigate the
+		// screen
 		void showMenu() {
 
 			char option = '\0'; // Initializing this values with any value
@@ -78,10 +80,10 @@ public class BankingApplication {
 			System.out.println(); // Line break
 
 			// There print lines will be the options the user can access
-			System.out.println("A. Check Balance");
+			System.out.println("A. Check balance");
 			System.out.println("B. Deposit");
 			System.out.println("C. Withdraw");
-			System.out.println("D. Previous Transaction");
+			System.out.println("D. Previous transaction");
 			System.out.println("E. Exit");
 
 			// Performing a do while loop for customer options
