@@ -14,7 +14,7 @@ public class BankingApplication {
 	/*
 	 * Create classes that will perform functions for the main method deposit,
 	 * withdraw, show previous transactions, display a welcome message, and a show
-	 * menu.
+	 * menu. 
 	 */
 
 	public static void main(String[] args) {
